@@ -1,0 +1,15 @@
+<section>
+    <div class="wrap">
+        <h2>Próximas fechas</h2>
+        @for (d of dates; track d.title) {
+        <div class="card date">
+            <div>
+                <h3>{{ d.title }}</h3>
+                <p>{{ d.when }}</p>
+            </div>
+            <a class="btn" [href]="wa(d.msg)">Apartar lugar</a>
+        </div>
+        }
+        <p class="note">Más rodadas y paseos: sigue las fechas en Instagram.</p>
+    </div>
+</section>
