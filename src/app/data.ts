@@ -6,7 +6,7 @@ export const INSTAGRAM = 'jimny_con_tony';   // sin @
 export const wa = (msg: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
 
 // Fotos: ponlas en /public/fotos y agrégalas así: 'fotos/rodada1.jpg'
-export const PHOTOS: string[] = [];
+export const PHOTOS: string[] = ['fotos/1.jpeg', 'fotos/2.jpeg', 'fotos/3.jpeg', 'fotos/4.jpeg'];
 
 export const SERVICES = [
   { icon: '🚙', title: 'Transporte de bicis', text: 'Llevamos tu bici y a ti a la carrera o ruta. Cupo de 4 bicis (si soy guia 3 bicis).' },
@@ -15,7 +15,7 @@ export const SERVICES = [
 ];
 
 export const PRICES = [
-  { title: 'Transporte de bici (Popobike)', price: '$350', text: 'Por persona. Incluye una bebida fría. Te recogemos y regresamos en casa, o nos vemos en un punto acordado (depende de los integrantes del grupo).' },
+  { title: 'Transporte de bici (Popobike 2026)', price: '$350', text: 'Por persona. Incluye una bebida fría. Te recogemos y regresamos en casa, o nos vemos en un punto acordado (depende de los integrantes del grupo).' },
   { title: 'Barredora', price: '$500', text: 'Por persona. Yo voy manejando para cuidarte a ti y tus amigos, regresamos a casa seguros. El costo depende del tiempo, gasolina se cobra por aparte.' },
 ];
 
@@ -27,5 +27,5 @@ export const STEPS = [
 ];
 
 export const DATES = [
-  { title: 'Transporte a Popobike', when: 'Domingo 25 de octubre · 4 lugares', msg: 'Quiero lugar para Popobike' },
+  { title: 'Transporte a Popobike 2026', when: 'Domingo 25 de octubre · 4 lugares', msg: 'Quiero lugar para Popobike 2026' },
 ];

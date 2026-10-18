@@ -20,11 +20,11 @@ import { WhatsappButtonComponent } from './whatsapp-button/whatsapp-button.compo
   template: `
     <app-hero />
     <main>
+      <app-dates />
       <app-services />
       <app-trust />
       <app-prices />
       <app-steps />
-      <app-dates />
       <app-gallery />
     </main>
     <app-footer />
