@@ -1,17 +1,30 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <title>TonyAdventures · Rodadas, barredora y transporte de bicis en Puebla</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Transporte de bicis, rodadas o barredora en Puebla. Rutas previamente scouteadas en bicicleta.">
+  <meta name="description"
+    content="Transporte de bicis, rodadas o barredora en Puebla. Rutas previamente scouteadas en bicicleta.">
   <meta property="og:title" content="TonyAdventures · Rodadas y paseos en Puebla">
   <meta property="og:description" content="Tú pedaleas. Yo me encargo del resto.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7532304857455175"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
   <app-root></app-root>
+  <script>
+    fetch("https://abacus.jasoncameron.dev/hit/tonyadventures/paseos")
+      .then(r => r.json())
+      .then(d => document.getElementById("visitas").textContent = d.value)
+      .catch(() => { });
+  </script>
 </body>
+
 </html>

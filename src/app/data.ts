@@ -6,7 +6,7 @@ export const INSTAGRAM = 'jimny_con_tony';   // sin @
 export const wa = (msg: string) => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
 
 // Fotos: ponlas en /public/fotos y agrégalas así: 'fotos/rodada1.jpg'
-export const PHOTOS: string[] = ['fotos/1.jpeg', 'fotos/2.jpeg', 'fotos/3.jpeg', 'fotos/4.jpeg'];
+export const PHOTOS: string[] = ['fotos/1.jpeg', 'fotos/2.jpeg', 'fotos/3.jpeg', 'fotos/4.jpeg', 'fotos/5.jpeg', 'fotos/6.jpeg', 'fotos/7.jpeg', 'fotos/8.jpeg', 'fotos/9.jpeg'];
 
 export const SERVICES = [
   { icon: '🚙', title: 'Transporte de bicis', text: 'Llevamos tu bici y a ti a la carrera o ruta. Cupo de 4 bicis (si soy guia 3 bicis).' },

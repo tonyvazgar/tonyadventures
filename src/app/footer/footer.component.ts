@@ -7,8 +7,9 @@ import { INSTAGRAM } from '../data';
   <footer>
     <div class="wrap">
       <p><strong>TonyAdventures</strong> · Cholula / Puebla</p>
-      <p><a [href]="'https://instagram.com/' + instagram">Instagram &#64;{{ instagram }}</a></p>
+      <p>Instagram <a [href]="'https://instagram.com/' + instagram"> &#64;{{ instagram }}</a></p>
     </div>
+    <p>👀 Visitas: <span id="visitas">…</span></p>
   </footer>`,
 })
 export class FooterComponent { instagram = INSTAGRAM; }

@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   <section>
     <div class="wrap">
       <div class="trust">
-        <h2>Rutas scouteadas en bici</h2>
-        <p>Las rutas son previamente scouteadas con bicicleta para verificar su seguridad y tranquilidad.</p>
+        <h2>Rutas scouteadas en bici y tranquilidad de herramienta</h2>
+        <p>Las rutas son previamente scouteadas con bicicleta para verificar su seguridad y tranquilidad. LLevo todo lo necesario para solucionar algún inconveniente en la ruta.</p>
       </div>
     </div>
   </section>`,
